@@ -57,7 +57,7 @@ public class SuccessKilled {
 
     @Override
     public String toString() {
-        return "SuccessKilled{" +
+        return "SuccessKilledDao{" +
                 "seckillId=" + seckillId +
                 ", userPhone=" + userPhone +
                 ", state=" + state +

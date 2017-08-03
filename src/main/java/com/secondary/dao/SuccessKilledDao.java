@@ -3,7 +3,7 @@ package com.secondary.dao;
 /**
  * Created by Secondary on 2017/7/30.
  */
-public interface SuccessKilled {
+public interface SuccessKilledDao {
 
     /**
      * 插入购买明细，可过滤重复
@@ -18,5 +18,5 @@ public interface SuccessKilled {
      * @param seckillId
      * @return
      */
-    SuccessKilled queryByIdWithSeckill(long seckillId);
+    SuccessKilledDao queryByIdWithSeckill(long seckillId);
 }
