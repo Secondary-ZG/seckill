@@ -30,7 +30,6 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.3.10.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.3.10.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-test:4.3.10.RELEASE" />
-          <element id="library" level="project" name="Maven: error:error:unknown" />
         </element>
       </element>
       <element id="directory" name="META-INF">

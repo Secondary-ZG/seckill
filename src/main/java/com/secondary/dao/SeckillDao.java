@@ -1,12 +1,13 @@
 package com.secondary.dao;
 
 import com.secondary.entity.Seckill;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.Date;
 import java.util.List;
 
 /**
- * Created by Secondary on 2017/7/30.
+ * Created by Secondary on 2017/7/30
  */
 public interface SeckillDao {
 
@@ -16,7 +17,7 @@ public interface SeckillDao {
      * @param killTime
      * @return
      */
-    int reduceNumber(long seckillId, Date killTime);
+    int reduceNumber(@Param("seckillId") long seckillId, @Param("killTime") Date killTime);
 
     /**
      * 通过id查询商品
@@ -31,6 +32,6 @@ public interface SeckillDao {
      * @param limit
      * @return
      */
-    List<Seckill> queryAll(int offset, int limit);
+    List<Seckill> queryAll(@Param("offset") int offset, @Param("limit") int limit);
 
 }
